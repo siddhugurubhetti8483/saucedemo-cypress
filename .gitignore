@@ -1,0 +1,30 @@
+# Node modules (bahut heavy hote hain, git me commit nahi karte)
+node_modules/
+
+# Cypress generated stuff
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Logs and reports
+*.log
+*.tmp
+*.swp
+*.pid
+*.seed
+*.pid.lock
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Env/config secrets
+.env
+cypress.env.json
+
+# Coverage reports (agar nyc/istanbul use kar rahe ho)
+coverage/
+
+# Cache
+.nyc_output
+.cache/
